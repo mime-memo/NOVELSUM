@@ -1,0 +1,2 @@
+# NOVELSUM
+Novel Summarization Repository
