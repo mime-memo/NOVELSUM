@@ -26,7 +26,7 @@ python scripts/summarize_text.py --input data/novels/example.txt --output result
 ```
 @inproceedings{novelsum2026,
   title={NOVELSUM: Evaluating Long-Form Summary Generation for Historical Scandinavian Novels},
-  booktitle={Proceedings of LREC},
+  booktitle={Submitted to the LREC 2026},
   year={2026}
 }
 ```
