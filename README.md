@@ -1,22 +1,35 @@
-# NOVELSUM: Evaluating Long-Form Summary Generation for Historical Scandinavian Novels
+# NOVELSUM
 
-This repository contains code, data, and resources for the NOVELSUM project, which evaluates long-form summarization of late-19th-century Danish and Norwegian novels.
+**NOVELSUM** is a research framework for long-form summarization and evaluation of
+historical Danish and Norwegian novels.
 
-## Quick Start
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run summarization: `python code/summarization.py`
-3. Evaluate results: `python code/evaluation.py`
+This repository accompanies the paper:
 
-## Dataset
-The dataset includes 34 historical Scandinavian novels with:
-- Full novel texts (public domain)
-- Professional reference summaries (copyrighted, not distributed)
-- Generated summaries from multiple models
+> *NOVELSUM: Evaluating Long-Form Summary Generation for Historical Scandinavian Novels*  
+> (LREC 2026)
 
-## Models Evaluated
-- Baseline: LED, LongT5, DanSumT5-large
-- LLMs: DeepSeek-V3, Llama-3.2-3B, gemma-3n-E4B-it, GPT-4o-mini
-- Evaluation: Qwen3-235B-A22B-Instruct-2507-FP8
+## Features
+- Full-text & hierarchical LLM summarization
+- Metadata-based summarization
+- Evaluation with ROUGE, BERTScore, and SAS
+- Reproducible CLI pipelines
+
+## Installation
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+```bash
+export OPENAI_API_KEY=YOUR_KEY
+python scripts/summarize_text.py --input data/novels/example.txt --output result.txt
+```
 
 ## Citation
-If you use this resource, please cite our LREC 2026 paper.
+```
+@inproceedings{novelsum2026,
+  title={NOVELSUM: Evaluating Long-Form Summary Generation for Historical Scandinavian Novels},
+  booktitle={Proceedings of LREC},
+  year={2026}
+}
+```

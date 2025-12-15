@@ -1,0 +1,8 @@
+openai>=1.0.0
+tiktoken
+numpy
+pandas
+rouge
+bert-score
+sentence-transformers
+scipy
