@@ -3,10 +3,7 @@
 **NOVELSUM** is a research framework for long-form summarization and evaluation of
 historical Danish and Norwegian novels.
 
-This repository accompanies the paper:
 
-> *NOVELSUM: Evaluating Long-Form Summary Generation for Historical Scandinavian Novels*  
-> (LREC 2026)
 
 ## Features
 - Full-text & hierarchical LLM summarization
